@@ -1,12 +1,13 @@
 
 import './App.css'
+import Card from "./components/Card.jsx"
 
 function App() {
  
 
   return (
     <>
-   
+     <h1><Card/></h1>
     <div className='max-w-sm bg-white border border-gray-200 rounded-xl mt-8 shadow overflow-hidden transition-shadow'>
       <img
       className='w-full h-48 object-cover rounded-xl ' src="https://www.teacupsfull.com/cdn/shop/articles/Screenshot_2023-09-05_at_7.00.35_PM.png?v=1693987070&width=1100" alt="chai aur code" srcset="" />
